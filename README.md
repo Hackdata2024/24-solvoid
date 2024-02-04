@@ -48,6 +48,6 @@ The project focuses on developing a sign language translator that detects Indian
 ### Explaining the Core Code
 Our core code captures video from the webcam, detects hands using the HandTrackingModule, and extracts the hand region. It resizes the hand region to a fixed size, feeds it into a sign language classifier ("trainedModel.h5"), and displays the predicted letter on the video feed. The program continuously runs in a loop, updating the predictions as the hands gesture different letters.
     
-##NOTE
+## NOTE
 we are unable to upload data samples because there is too huge data that it is giving error while uploading. data more than 2.5GB
 
